@@ -1,3 +1,6 @@
 **/.idea/*
+**/.idea/**/*.class
+**/*.class
 BubbleSort/.idea/description.html
 *.html
+# BubbleSort/out/production/BubbleSort/harpreet/programmer/bubblesort/Main.class
