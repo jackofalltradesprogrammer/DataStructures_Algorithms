@@ -43,7 +43,8 @@ public class Main {
         // Remember this
         // {{32, 34 }, { 33, 36} } ORRRR {{32, 36}, { 33, 34} }
         // after merging [ 32, 33, 34} as this is temporary array , and they won't be covered under 'while'
-        // when we merge to main array 36 doesn't need to be overidden BUT IF 36 IS IN THE LEFT array IT NEED TO BE CHANGED
+        // when we merge to main array 36 doesn't need to be overidden as it is alreayd in correct position
+        // BUT IF 36 IS IN THE LEFT array IT NEED TO BE CHANGED
         // we can just take the large elements in the left array and replace it at the same indices of the right array but
         // in the main input array (Source)
 
